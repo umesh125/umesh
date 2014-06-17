@@ -1,0 +1,10 @@
+name = Bundle clone
+description = Clone any entity's bundle fields into a a new bundle of the same entity
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2014-05-09
+version = "7.x-1.2"
+core = "7.x"
+project = "bundle_clone"
+datestamp = "1399662530"
+
