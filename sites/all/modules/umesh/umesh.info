@@ -1,0 +1,7 @@
+name = Favorite Quotes
+description = "allow user to view my favorite quotes which is designed by umesh naik"
+package = "Modules from Umesh Naik"
+core = 7.x
+version = "7.x-1.0"
+core = "7.x"
+

@@ -1,0 +1,36 @@
+<?php 
+function quotes_install()
+{
+
+switch ($GLOBAL['db_type'])
+{
+case 'mysql':
+case 'mysqli':
+  db_query("CREATE TABLE {quotes} (
+qid int not null auto_increment,
+quote text,
+author varchar(255),
+PRIMARY KEY (qid)
+)");
+db_query("CREATE TABLE {quotes_rating} (
+qid int not null REFERENCES quotes(qid),
+quote text,
+author varchar(255),
+PRIMARY KEY (qid)
+)");
+break;
+
+
+function quotes_unstall()
+{
+
+switch ($GLOBAL['db_type'])
+{
+case 'mysql':
+case 'mysqli':
+ db_query("DROP TABLE {quotes}");
+db_query("DROP TABLE {quotes_rating}");
+break;
+}
+}
+?>

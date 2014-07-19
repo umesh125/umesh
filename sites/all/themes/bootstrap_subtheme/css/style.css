@@ -1,0 +1,19 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+
+
+.navbar-nav > li {
+color: white; 
+     display: inline-block !important;   
+   text-align: center !important;        }        .navbar-nav {      display: inline-block;      text-align: center;  }
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<?php 
+function marquee_block_block_info() {
+  $blocks = array();
+
+  $blocks['marquee-block'] = array(
+      'info' => t('This is block from umesh naik'),
+      'cache' => DRUPAL_CACHE_GLOBAL,
+  );
+
+  return $blocks;
+
+
+?>
+
+
